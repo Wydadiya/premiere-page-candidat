@@ -14,14 +14,10 @@ import {
   Calendar,
   Building,
   BookOpen,
-  Award,
-  Link,
   Github,
   Linkedin,
-  Clock,
   MapPin,
-  X,
-  Plus
+  X
 } from 'lucide-react';
 
 // Composant pour l'indicateur de progression

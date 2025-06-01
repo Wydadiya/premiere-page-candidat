@@ -13,7 +13,7 @@ export default function CandidateDashboard() {
     skills: true,
     photo: false
   });
-  const [notifications, setNotifications] = useState([
+  const [notifications] = useState([
     { id: 1, message: "Nouvelle opportunité disponible", time: "Il y a 2h", unread: true },
     { id: 2, message: "Profil consulté par RH", time: "Il y a 1 jour", unread: true },
     { id: 3, message: "Document approuvé", time: "Il y a 3 jours", unread: false }
@@ -77,4 +77,4 @@ export default function CandidateDashboard() {
       </div>
     </div>
   );
-} 
+}

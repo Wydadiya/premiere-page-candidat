@@ -6,7 +6,7 @@ const CalendarWidget = ({
   initialMonth = { month: 'Septembre', year: 2022 }
 }) => {
   const [selectedDate, setSelectedDate] = useState(initialSelectedDate);
-  const [currentMonth, setCurrentMonth] = useState(initialMonth);
+  const [currentMonth] = useState(initialMonth);
   
   const daysOfWeek = ['DIM', 'LUN', 'MAR', 'MER', 'JEU', 'VEN', 'SAM'];
   const calendarDays = [
@@ -66,4 +66,4 @@ const CalendarWidget = ({
   );
 };
 
-export default CalendarWidget; 
+export default CalendarWidget;
